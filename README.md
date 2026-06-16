@@ -1,0 +1,4 @@
+# kanban-board
+Kanban Board
+
+This script implements a simple Kanban board application using Python and the `rich` library for enhanced display. It allows users to manage tasks across different columns (ToDo, Doing, Done) and provides basic functionalities like adding, moving, editing, and deleting tasks. The application saves and loads data from a JSON file (`kanban.json`) and utilizes a configurable logger for tracking operations and debugging. The code employs a YAML configuration file to define colors and log directory, promoting adaptability. Data is persistently stored, and the UI displays tasks clearly using Rich's table formatting.
